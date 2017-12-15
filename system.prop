@@ -45,6 +45,12 @@ ro.telephony.default_network=10,10
 ro.telephony.sim.count=2
 telephony.lteOnCdmaDevice=1
 ro.telephony.call_ring.delay=0
+
+# Fling velocities
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
+# Google DNS
 net.dns1=8.8.8.8
 net.dns2=8.8.4.4
 ring.delay=0
@@ -234,6 +240,7 @@ view.scroll_friction=0
 ro.min_pointer_dur=8
 touch.deviceType=touchScreen
 
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 #Improve global touch screen response
 debug.egl.hw=1
 video.accelerate.hw=1
