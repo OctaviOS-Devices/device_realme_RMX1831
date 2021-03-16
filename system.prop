@@ -1,4 +1,3 @@
-
 # Copyright 2020 The Android Open Source Project
 # Copyright (C) 2020 The PixelExperience Project
 #
@@ -148,6 +147,7 @@ persist.dbg.wfc_avail_ovr=1
 
 # SurfaceFlinger
 debug.sf.latch_unsignaled=1
+<<<<<<< HEAD
 debug.sf.hw=1
 debug.sf.early_phase_offset_ns=1500000
 debug.sf.early_app_phase_offset_ns=1500000
@@ -258,10 +258,12 @@ persist.sys.wfd.virtual=0
 
 # screen recorder lag
 debug.sf.enable_hwc_vds=0
-debug.sdm.support_writeback=0
 persist.sys.wfd.nohdcp=1
 
 # performance
 ro.mtk_perf_simple_start_win=1
 ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
+
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
