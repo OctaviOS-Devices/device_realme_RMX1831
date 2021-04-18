@@ -14,7 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
 #
 # System Properties for Realme U1: RMX1831
 #
@@ -52,6 +51,12 @@ ring.delay=0
 
 # ipv6
 ro.mtk_tetheringipv6_support=1
+
+# Audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
+ro.zygote.preload.enable=0
+ro.config.vc_call_vol_steps=6
 
 # Playstore
 ro.com.google.clientidbase=android-oppo
