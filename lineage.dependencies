@@ -1,0 +1,20 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch":      "lineage-17.1"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "RMX1831/android_kernel_realme_RMX1831",
+    "target_path": "kernel/realme/mt6771"
+    "branch"     : "alps"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "RMX1831/android_vendor_realme_RMX1831",
+    "target_path": "vendor/realme/RMX1831"
+    "branch"     : "lineage-18.0-ims"
+  }
+]

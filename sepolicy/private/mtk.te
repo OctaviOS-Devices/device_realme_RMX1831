@@ -2,7 +2,7 @@ type mtk_hal_audio, domain;
 typeattribute mtk_hal_audio hal_broadcastradio_client;
 
 type mtk_hal_power, domain;
-allow mtk_hal_power system_data_root_file:file create_file_perms;
+#allow mtk_hal_power system_data_root_file:file create_file_perms;
 allow zygote ashmem_device:chr_file execute;
 
 attribute hal_mms_server;
