@@ -26,7 +26,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 LINEAGE_ROOT="$MY_DIR"/../../..
 
-HELPER="$LINEAGE_ROOT"/vendor/stag/build/tools/extract_utils.sh
+HELPER="$LINEAGE_ROOT"/vendor/octavi/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -55,7 +55,7 @@ if [ -z "$SRC" ]; then
 fi
 
 # Initialize the helper
-setup_vendor "$DEVICE" "$VENDOR" "$STAG_ROOT" false "$CLEAN_VENDOR"
+setup_vendor "$DEVICE" "$VENDOR" "$OCTAVI_ROOT" false "$CLEAN_VENDOR"
 
 extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 

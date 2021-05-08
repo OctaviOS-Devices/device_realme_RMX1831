@@ -15,4 +15,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_RMX1831.mk
+    $(LOCAL_DIR)/octavi_RMX1831.mk

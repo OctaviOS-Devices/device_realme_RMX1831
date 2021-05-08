@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LOS stuff.
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Inherit from realme RMX1831
 $(call inherit-product, device/realme/RMX1831/device.mk)
@@ -27,15 +27,16 @@ $(call inherit-product, device/realme/RMX1831/device.mk)
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Specify arch for gapps
-TARGET_GAPPS_ARCH=arm64
+# Inherit some common Octavi OS stuff.
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_DEVICE_MAINTAINER := Aakash-Panchal
 
 # Bootanimation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := stag_RMX1831
+PRODUCT_NAME := octavi_RMX1831
 PRODUCT_DEVICE := RMX1831
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
