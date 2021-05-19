@@ -246,3 +246,10 @@ persist.sys.wfd.virtual=0
 
 # screen recorder lag
 debug.sf.enable_hwc_vds=0
+debug.sdm.support_writeback=0
+persist.sys.wfd.nohdcp=1
+
+# performance
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
