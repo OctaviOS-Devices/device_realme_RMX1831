@@ -1,0 +1,8 @@
+]
+ {
+   "remote": "github",
+   "repository": "OctaviOS-Devices/vendor_realme_RMX1831",
+   "target_path": "vendor/realme/RMX1831",
+   "branch": "eleven-ims " 
+ }
+]
