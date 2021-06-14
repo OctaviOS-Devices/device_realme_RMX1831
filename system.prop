@@ -147,7 +147,6 @@ persist.dbg.wfc_avail_ovr=1
 
 # SurfaceFlinger
 debug.sf.latch_unsignaled=1
-<<<<<<< HEAD
 debug.sf.hw=1
 debug.sf.early_phase_offset_ns=1500000
 debug.sf.early_app_phase_offset_ns=1500000
@@ -170,18 +169,6 @@ ro.surface_flinger.use_smart_90_for_video=true
 ro.surface_flinger.set_display_power_timer_ms=10000
 ro.surface_flinger.set_touch_timer_ms=5000
 ro.surface_flinger.set_idle_timer_ms=9000
-
-# Memory
-ro.vendor.qti.sys.fw.bservice_enable=true
-ro.config.fha_enable=true
-ro.sys.fw.bg_apps_limit=32
-ro.config.dha_cached_max=16
-ro.config.dha_empty_max=42
-ro.config.dha_empty_init=32
-ro.config.dha_lmk_scale=0.545
-ro.config.dha_th_rate=2.3
-ro.config.sdha_apps_bg_max=64
-ro.config.sdha_apps_bg_min=8
 
 # Kernel
 ro.kernel.zio=38,108,105,16
@@ -267,3 +254,26 @@ ro.mtk_perf_response_time=1
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
+
+# Venom
+ro.surface_flinger.running_without_sync_framework=true
+
+
+# DHA Tunning
+ro.config.dha_tunnable=1
+
+# SystemUI
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
