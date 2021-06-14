@@ -24,6 +24,9 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 # Inherit from realme RMX1831
 $(call inherit-product, device/realme/RMX1831/device.mk)
 
+# ANX Camera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
