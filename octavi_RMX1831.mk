@@ -30,6 +30,9 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+# ANX Camera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 # Inherit some common Octavi OS stuff.
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := Aakash-Panchal
